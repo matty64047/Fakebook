@@ -21,6 +21,10 @@ const App: React.FC<AppProps> = () => {
 
   return (
     <div className="App">
+      <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+      />
       {isLoggedIn ? (
         <Home handleLogout={handleLogout} />
       ) : (

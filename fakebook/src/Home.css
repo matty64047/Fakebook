@@ -3,24 +3,15 @@ display: flex;
 flex-flow: column;
 height: 100vh;
 }
-   
+
 #fixed {
-    height: 80px;
-    background-color: #242526;
+    height: 100px;
 }
+   
 
 #remaining {
     flex-grow : 1;
 }
-
-.horizontal-line {
-    width: 100%;
-    align-items: end;
-    height: 0.5px; /* Adjust the height as needed */
-    background-color: rgb(134, 134, 134); /* Color of the line */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Shadow underneath the line */
-  }
-
 
 .container {
     display: flex;
@@ -28,19 +19,21 @@ height: 100vh;
   
   .leftColumn {
     width: 400px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    background-color: #18191a; /* Light blue */
+    background-color: #f0f2f5; /* Light blue */
   }
   
   .mainColumn {
     flex: 2;
-    background-color: #242526; /* Light grey */
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    overflow: auto;
+    background-color: #f0f2f5; /* Light grey */
   }
   
   .rightColumn {
     width: 400px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    background-color: #18191a; /* Light green */
+    background-color: #f0f2f5; /* Light green */
   }
   
   /* Media query for collapsing side columns on smaller screens */

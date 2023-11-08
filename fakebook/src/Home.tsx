@@ -13,8 +13,7 @@ const Home: React.FC<HomeProps> = ({ handleLogout }) => {
   return (
     <div id="box">
       <div id="fixed">
-        <TopBar content=''></TopBar>
-        <div className="horizontal-line"></div>
+        <TopBar handleLogout={handleLogout} content=''></TopBar>
       </div>
       <div className="container" id="remaining">
         <div className="leftColumn"><LeftBar content=''></LeftBar></div>
