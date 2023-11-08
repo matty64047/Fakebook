@@ -84,6 +84,11 @@ form a {
   color: #1877f2;
 }
 
+form hr {
+  background: #f7f7f7;
+  margin: 1rem;
+}
+
 form .create-account {
   outline: none;
   border: none;
