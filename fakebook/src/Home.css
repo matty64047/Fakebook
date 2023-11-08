@@ -6,10 +6,13 @@ height: 100vh;
 
 #fixed {
     height: 100px;
+    position: fixed;
+    width: 100%;
 }
    
 
 #remaining {
+    margin-top: 100px;
     flex-grow : 1;
 }
 
